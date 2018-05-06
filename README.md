@@ -1,6 +1,6 @@
 # Team
 
-Mohammad Heidarian, Muhammed Taha Serdar, M.Hanny Sabbagh
+Mohammad Heidarian, M.Hanny Sabbagh
 
 # Topic
 
