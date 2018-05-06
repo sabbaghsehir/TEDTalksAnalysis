@@ -1,7 +1,9 @@
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import count, desc
 
 # Create Spark session and read the data.
 spark = SparkSession.builder.appName("TED Talks").getOrCreate()
-ted = spark.read.format("csv").option("header", "true").load("data.csv")
+ted = spark.read.option("header", True).csv("data.csv")
 
-
+# Example
+top10views = ted.select("title", "views").show(10)

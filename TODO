@@ -1,0 +1,16 @@
+# Todo List
+
+1- Create initial structure and bring the data (Done: M.Hanny Sabbagh).
+2- Clean the data file (data.csv) and remove unused columns (description, event, film_date, main_speaker, num_speaker, published_date, related_talks, speaker_occupation, url).
+3- Create a new column for total ratings per video.
+4- Extract ratings into new columns (E.g "funny" ratings should be in seperate column, not in a dict with others).
+5- List top 10 viewed talks.
+6- List top 10 categories.
+7- List top 10 discussed topics.
+8- List top 10 viewed categories.
+9- List top 10 translated talks (from languages column).
+10- Get the average number of views, comments, durations, videos per category, languages and title length (in chars).
+11- Calculate the correlation between all columns of views, comments, durations, ratings, length(title), category and languages.
+12- Run hypothesis test on the results from the correlation above. Are the results significant?
+13- Produce graphs and charts and output them by name into the "Graphs" folder.
+14- Finally, work on a full report including all the findings.
