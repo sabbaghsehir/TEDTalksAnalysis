@@ -1,7 +1,7 @@
 # Todo List
 
 1- Create initial structure and bring the data (Done: M.Hanny Sabbagh).
-2- Clean the data file (data.csv) and remove unused columns (description, event, film_date, main_speaker, num_speaker, published_date, related_talks, speaker_occupation, url).
+2- Clean the data file (data.csv) and remove unused columns (description, event, film_date, main_speaker, num_speaker, published_date, related_talks, speaker_occupation, url)(Done: Mohammad Heidarian).
 3- Create a new column for total ratings per video.
 4- Extract ratings into new columns (E.g "funny" ratings should be in seperate column, not in a dict with others).
 5- List top 10 viewed talks.
