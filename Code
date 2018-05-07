@@ -7,9 +7,4 @@ ted = spark.read.option("header", True).csv("data.csv")
 
 # Example
 top10views = ted.select("title", "views").show(10)
-#top10categories = ted.select("title","category").show(10)
-
-import pandas as pd
-import numpy as np
-df = pd.read_csv("data.csv")
 
